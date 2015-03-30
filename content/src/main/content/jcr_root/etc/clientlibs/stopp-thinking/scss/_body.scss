@@ -1,0 +1,16 @@
+body {
+    overflow: hidden;
+}
+
+#page {
+
+    @media (min-width: $screen-lg) {
+        max-width: $st-max-width;
+    }
+    @media (max-width: $screen-md-max) {
+        width: 100%;
+    }
+    margin: 0 auto;
+    position: relative;
+    height: 100vh;
+}

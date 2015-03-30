@@ -1,0 +1,12 @@
+<template data-sly-template.headlibs="${@ designPath}" data-sly-use.clientLib="${'/libs/granite/sightly/templates/clientlib.html'}" data-sly-use.superHeadLibs="${'/libs/wcm/foundation/components/page/headlibs.html'}">
+
+    <meta data-sly-test="${!wcmmode.disabled}" data-sly-call="${superHeadLibs.headlibs @ designPath=designPath}" data-sly-unwrap></meta>
+
+    <link href="//fonts.googleapis.com/css?family=PT+Sans:400,400italic,700|PT+Serif:400,400italic,700|PT+Mono" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.6.0/pure-min.css">
+
+    <meta data-sly-call="${clientLib.css @ categories=['stopp-thinking.main']}" data-sly-unwrap></meta>
+    <meta data-sly-test="${!wcmmode.disabled}" data-sly-call="${clientLib.all @ categories='stopp-thinking.edit'}" data-sly-unwrap></meta>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script type="application/javascript" src="//code.jquery.com/jquery-2.1.3.min.js"></script>
+</template>

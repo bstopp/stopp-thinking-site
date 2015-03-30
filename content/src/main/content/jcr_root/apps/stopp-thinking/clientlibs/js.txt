@@ -1,0 +1,5 @@
+#base=js
+
+init.js
+
+# DO NOT DELETE THIS LINE. The CSS clientlibs logic fails to load files, if the last line is not a blank line.

@@ -1,0 +1,21 @@
+{
+    "sly.serverUrl": "http://localhost:4502",
+    "sly.remoteUser": "admin",
+    "sly.remoteUserPassword": "admin",
+    "sly.acceptSelfSignedCertificates": false,
+    "sass.enabled": false,
+    "path": {
+        "jcr_root/etc/clientlibs/stopp-thinking/scss/stopp-thinking.scss": {
+            "sass.enabled": true,
+            "sass.options": {
+                "outputDir": "../css/",
+                "includePaths": [],
+                "imagePath": null,
+                "sourceComments": false,
+                "outputStyle": "nested"
+            },
+            "linting.collapsed": true,
+            "debug.showErrorsInStatusBar": true
+        }
+    }
+}

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workspaceFilter version="1.0">
+    <filter root="/apps/stopp-thinking">
+        <exclude pattern="/apps/stopp-thinking/config*" />
+    </filter>
+
+    <filter root="/apps/sling/servlet/errorhandler" />
+
+
+    <filter root="/etc/clientlibs/stopp-thinking" />
+
+    <filter root="/var/clientlibs/etc/clientlibs/stopp-thinking" />
+
+</workspaceFilter>

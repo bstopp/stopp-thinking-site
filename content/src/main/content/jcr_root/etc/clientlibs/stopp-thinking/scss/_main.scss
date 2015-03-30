@@ -1,0 +1,14 @@
+#main {
+    @media (min-width: $screen-md) {
+        right: $right-rail-width;
+    }
+    @media (max-width: $screen-sm-max) {
+        width: 100%;
+    }
+
+    height: 100vh;
+    background-color: $gray-lighter;
+    position: absolute;
+    top: 0;
+    left: 0;
+}

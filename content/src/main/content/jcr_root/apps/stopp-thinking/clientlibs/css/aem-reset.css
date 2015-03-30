@@ -1,0 +1,41 @@
+
+#CQ *, #CQ *:before, #CQ *:after { 
+	-webkit-box-sizing: content-box;
+	-moz-box-sizing: content-box;
+	box-sizing: content-box;
+
+}
+
+#CQ label {
+	font-weight: normal;
+}
+
+#CQ .x-form-item p, #CQ .x-form-item a, #CQ .x-form-item input, #CQ .x-form-item label  {
+	font-size: 12px;
+	font-style: normal;
+}
+
+#CQ .cq-static a {
+	font-size: 12px;
+}
+
+#CQ input[type='radio'] + label {
+	font-size: 12px;
+	background: none;
+	padding: 0!important;
+}
+
+#CQ input[type='radio'] {
+	display: inline!important;
+}
+
+#CQ .x-html-editor-tb  .x-btn-text.x-edit-modifycta {
+	background-position: -208px 0px;
+}
+
+
+#CQ legend {
+	width: auto;
+	margin: 0;
+	border-bottom: none;
+}

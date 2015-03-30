@@ -1,0 +1,2 @@
+window.StoppThinkingLib = window.StoppThinkingLib ||  {};
+

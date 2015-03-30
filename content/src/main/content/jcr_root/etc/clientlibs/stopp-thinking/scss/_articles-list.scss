@@ -1,0 +1,24 @@
+article {
+    width: 288px;
+    .bg-img {
+        height: 211px;
+    }
+    .headline {
+        height: 106px;
+    }
+    .meta-data {
+        height: 22px;
+        padding-left: 21px;
+        background-color: $gray-light;
+        color: $black;
+        line-height: 22px;
+        font-size: 12px;
+        font-style: italic;
+        .author {
+            text-decoration: underline;
+        }
+    }
+    &.featured {
+        width: 606px;
+    }
+}

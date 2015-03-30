@@ -1,0 +1,8 @@
+#base=/etc/clientlibs/stopp-thinking/js
+
+vendor/iscroll.js
+
+namespace.js
+
+scrollables.js
+
